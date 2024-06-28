@@ -1,0 +1,77 @@
+2024-06-28 14:33:20,049:INFO__main__:Host server is connected to the broker
+2024-06-28 14:33:20,051:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-28 14:33:20,051:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-06-28 14:33:31,976:INFO__main__:Subscriber Client is connected
+2024-06-28 14:35:07,177:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:35:07] "GET / HTTP/1.1" 200 -
+2024-06-28 14:36:57,799:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:36:57] "POST / HTTP/1.1" 200 -
+2024-06-28 14:36:57,799:INFO__main__:Message is published
+2024-06-28 14:36:57,799:INFO__main__:Received message '{"username": "kouushik", "password": "nwefj"}' on topic 'post'
+2024-06-28 14:36:57,800:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
+2024-06-28 14:36:57,802:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
+FROM users2 
+WHERE users2.username = ?
+ LIMIT ? OFFSET ?
+2024-06-28 14:36:57,802:INFOsqlalchemy.engine.Engine:[generated in 0.00016s] ('kouushik', 1, 0)
+2024-06-28 14:36:57,803:INFOsqlalchemy.engine.Engine:INSERT INTO users2 (username, password) VALUES (?, ?)
+2024-06-28 14:36:57,803:INFOsqlalchemy.engine.Engine:[generated in 0.00012s] ('kouushik', 'nwefj')
+2024-06-28 14:36:57,804:INFOsqlalchemy.engine.Engine:COMMIT
+2024-06-28 14:36:57,809:INFO__main__:New User 'kouushik' successfully added to the database
+2024-06-28 14:37:54,621:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:37:54] "DELETE / HTTP/1.1" 200 -
+2024-06-28 14:37:54,621:INFO__main__:Message is published
+2024-06-28 14:37:54,621:INFO__main__:Received message '{"username": "kouushik", "password": "nwefj"}' on topic 'delete'
+2024-06-28 14:37:54,622:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
+2024-06-28 14:37:54,622:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
+FROM users2 
+WHERE users2.username = ?
+ LIMIT ? OFFSET ?
+2024-06-28 14:37:54,622:INFOsqlalchemy.engine.Engine:[cached since 56.82s ago] ('kouushik', 1, 0)
+2024-06-28 14:37:54,623:INFOsqlalchemy.engine.Engine:DELETE FROM users2 WHERE users2.username = ?
+2024-06-28 14:37:54,623:INFOsqlalchemy.engine.Engine:[generated in 0.00012s] ('kouushik',)
+2024-06-28 14:37:54,624:INFOsqlalchemy.engine.Engine:COMMIT
+2024-06-28 14:37:54,629:INFO__main__:User 'kouushik' deleted successfully
+2024-06-28 14:39:24,419:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:39:24] "POST / HTTP/1.1" 200 -
+2024-06-28 14:39:24,419:INFO__main__:Message is published
+2024-06-28 14:39:24,420:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'post'
+2024-06-28 14:39:24,420:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
+2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
+FROM users2 
+WHERE users2.username = ?
+ LIMIT ? OFFSET ?
+2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:[cached since 146.6s ago] ('koushik', 1, 0)
+2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:INSERT INTO users2 (username, password) VALUES (?, ?)
+2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:[cached since 146.6s ago] ('koushik', 'nwefj')
+2024-06-28 14:39:24,422:INFOsqlalchemy.engine.Engine:COMMIT
+2024-06-28 14:39:24,424:INFO__main__:New User 'koushik' successfully added to the database
+2024-06-28 14:40:00,729:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:40:00] "DELETE / HTTP/1.1" 200 -
+2024-06-28 14:40:00,730:INFO__main__:Message is published
+2024-06-28 14:40:00,730:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'delete'
+2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
+2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
+FROM users2 
+WHERE users2.username = ?
+ LIMIT ? OFFSET ?
+2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:[cached since 182.9s ago] ('koushik', 1, 0)
+2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:DELETE FROM users2 WHERE users2.username = ?
+2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:[cached since 126.1s ago] ('koushik',)
+2024-06-28 14:40:00,732:INFOsqlalchemy.engine.Engine:COMMIT
+2024-06-28 14:40:00,738:INFO__main__:User 'koushik' deleted successfully
+2024-06-28 14:48:22,414:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:48:22] "DELETE / HTTP/1.1" 200 -
+2024-06-28 14:48:22,414:INFO__main__:Message is published
+2024-06-28 14:48:22,414:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'delete'
+2024-06-28 14:48:22,415:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
+2024-06-28 14:48:22,415:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
+FROM users2 
+WHERE users2.username = ?
+ LIMIT ? OFFSET ?
+2024-06-28 14:48:22,415:INFOsqlalchemy.engine.Engine:[cached since 684.6s ago] ('koushik', 1, 0)
+2024-06-28 14:48:22,415:WARNING__main__:User not found in database
+2024-06-28 14:48:33,749:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:48:33] "DELETE / HTTP/1.1" 200 -
+2024-06-28 14:48:33,750:INFO__main__:Message is published
+2024-06-28 14:48:33,750:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'delete'
+2024-06-28 14:48:33,751:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
+FROM users2 
+WHERE users2.username = ?
+ LIMIT ? OFFSET ?
+2024-06-28 14:48:33,751:INFOsqlalchemy.engine.Engine:[cached since 695.9s ago] ('koushik', 1, 0)
+2024-06-28 14:48:33,751:WARNING__main__:User not found in database

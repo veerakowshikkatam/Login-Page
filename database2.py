@@ -1,20 +1,46 @@
-from sqlalchemy import create_engine, ForeignKey, Column, String, Integer, CHAR
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 
-Base = declarative_base()
+db = SQLAlchemy(app)
+migrate = Migrate(app, db)
 
-class Person(Base):
-    __tablename__ = "users2"
-    username = Column("username", String, primary_key= True)
-    password = Column("password", String)
+class Person(db.Model):
+    __tablename__ = "users"
+    user_id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String)
+    password = db.Column(db.String)
+    course_id = db.Column(db.Integer, db.ForeignKey('courses.course_id'))
 
-    def __init__(self, username, password):
+    def __init__(self, username, password, course_id):
         self.username = username
         self.password = password
+        self.course_id = course_id
 
-engine = create_engine("sqlite:///database.db", echo=True)
-Base.metadata.create_all(bind = engine)
+    def to_dict(self):
+        return {
+            'user_id': self.user_id,
+            'username': self.username,
+            'password': self.password,
+            'course_id': self.course_id
+            # Add more fields as needed
+        }
 
-Session = sessionmaker(bind = engine)
-session = Session()
+class Courses(db.Model):
+    __tablename__ = "courses"
+    course_id = db.Column(db.Integer, primary_key=True)
+    course_name = db.Column(db.String)
+    course_fees = db.Column(db.Integer)
+
+    def __init__(self, course_name, course_fees):
+        self.course_name = course_name
+        self.course_fees = course_fees
+
+
+with app.app_context():
+    db.create_all()
+
+session = db.session
+

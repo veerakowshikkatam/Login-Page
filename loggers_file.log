@@ -1,77 +1,424 @@
-2024-06-28 14:33:20,049:INFO__main__:Host server is connected to the broker
-2024-06-28 14:33:20,051:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-07-02 17:26:35,442:INFOlogs:Subscriber Client is connected
+2024-07-02 17:26:39,858:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:39] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:26:39,860:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:39] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:26:39,860:INFOlogs:Message is published
+2024-07-02 17:26:39,860:INFOlogs:Received message '{"username": "Kowshik123", "password": "10001", "course_id": 1}' on topic 'post'
+2024-07-02 17:26:39,864:INFOlogs:Kowshik123
+2024-07-02 17:26:39,864:WARNINGlogs:Username already taken. Please try new username
+2024-07-02 17:26:47,146:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:47] "[32mPUT /users HTTP/1.1[0m" 308 -
+2024-07-02 17:26:47,148:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:47] "PUT /users/ HTTP/1.1" 200 -
+2024-07-02 17:26:47,149:INFOlogs:Message is published
+2024-07-02 17:26:47,149:INFOlogs:Received message '{"username": "Kowshik123", "password": "10001", "course_id": 1}' on topic 'put'
+2024-07-02 17:26:47,150:WARNINGlogs:Password is Matching again. Please try new password
+2024-07-02 17:27:07,575:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:07] "[32mPUT /users HTTP/1.1[0m" 308 -
+2024-07-02 17:27:07,577:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:07] "PUT /users/ HTTP/1.1" 200 -
+2024-07-02 17:27:07,577:INFOlogs:Message is published
+2024-07-02 17:27:07,577:INFOlogs:Received message '{"username": "Kowshik123", "password": "10007", "course_id": 1}' on topic 'put'
+2024-07-02 17:27:07,585:INFOlogs:Password is Changed successfully. PUT request is done
+2024-07-02 17:27:31,012:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:31] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:27:31,015:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:31] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:27:31,015:INFOlogs:Message is published
+2024-07-02 17:27:31,015:INFOlogs:Received message '{"username": "Kowshik123", "password": "10007", "course_id": 1}' on topic 'post'
+2024-07-02 17:27:31,016:INFOlogs:Kowshik123
+2024-07-02 17:27:31,016:WARNINGlogs:Username already taken. Please try new username
+2024-07-02 17:28:07,827:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:28:07] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:28:07,829:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:28:07] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:28:07,830:INFOlogs:Message is published
+2024-07-02 17:28:07,830:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'post'
+2024-07-02 17:28:07,831:INFOlogs:Kowshi2345
+2024-07-02 17:28:07,837:INFOlogs:New User 'Kowshi2345' successfully added to the database
+2024-07-02 17:30:49,862:INFOlogs:Subscriber Client is connected
+2024-07-02 17:30:56,204:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:30:56] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:30:56,207:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:30:56] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:30:56,207:INFOlogs:Message is published
+2024-07-02 17:30:56,208:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'post'
+2024-07-02 17:30:56,212:INFOlogs:Kowshi2345
+2024-07-02 17:30:56,212:WARNINGlogs:Username already taken. Please try new username
+2024-07-02 17:31:03,401:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:03] "[32mDELETE /users HTTP/1.1[0m" 308 -
+2024-07-02 17:31:03,403:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:03] "DELETE /users/ HTTP/1.1" 200 -
+2024-07-02 17:31:03,403:INFOlogs:Message is published
+2024-07-02 17:31:03,403:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'delete'
+2024-07-02 17:31:03,410:INFOlogs:User 'Kowshi2345' deleted successfully
+2024-07-02 17:31:19,313:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:19] "[32mDELETE /users HTTP/1.1[0m" 308 -
+2024-07-02 17:31:19,316:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:19] "DELETE /users/ HTTP/1.1" 200 -
+2024-07-02 17:31:19,316:INFOlogs:Message is published
+2024-07-02 17:31:19,316:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'delete'
+2024-07-02 17:31:19,317:WARNINGlogs:User not found in database
+2024-07-02 17:33:29,369:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:29] "[32mGET /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:33:29,382:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:29] "GET /courses/ HTTP/1.1" 200 -
+2024-07-02 17:33:35,624:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:35] "[32mGET /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:33:35,626:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:35] "GET /courses/ HTTP/1.1" 200 -
+2024-07-02 17:33:47,148:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:47] "[32mPUT /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:33:47,150:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:47] "PUT /courses/ HTTP/1.1" 200 -
+2024-07-02 17:33:47,151:INFOlogs:Message is published
+2024-07-02 17:33:47,151:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'put1'
+2024-07-02 17:33:47,151:WARNINGlogs:Put method is not applicable for the courses
+2024-07-02 17:36:07,025:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:36:07] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:36:07,027:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:36:07] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:36:07,027:INFOlogs:Message is published
+2024-07-02 17:36:07,028:INFOlogs:Received message '{"course_name": "Python", "course_fees": "10007"}' on topic 'post1'
+2024-07-02 17:37:24,018:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:24] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:37:24,020:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:24] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:37:24,020:INFOlogs:Message is published
+2024-07-02 17:37:26,908:INFOlogs:Subscriber Client is connected
+2024-07-02 17:37:28,974:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:28] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:37:28,976:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:28] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:37:28,977:INFOlogs:Message is published
+2024-07-02 17:37:28,977:INFOlogs:Received message '{"course_name": "Python", "course_fees": "10007"}' on topic 'post1'
+2024-07-02 17:37:28,987:INFOlogs:New Course 'Python' successfully added to the database
+2024-07-02 17:37:55,671:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:55] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:37:55,675:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:55] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:37:55,675:INFOlogs:Message is published
+2024-07-02 17:37:55,675:INFOlogs:Received message '{"course_name": "Python", "course_fees": 100000}' on topic 'post1'
+2024-07-02 17:37:55,676:WARNINGlogs:Course already in use. Please try to add new course
+2024-07-02 17:38:11,970:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:38:11] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:38:11,972:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:38:11] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:38:11,972:INFOlogs:Message is published
+2024-07-02 17:38:11,972:INFOlogs:Received message '{"course_name": "Java", "course_fees": 100000}' on topic 'post1'
+2024-07-02 17:38:11,979:INFOlogs:New Course 'Java' successfully added to the database
+2024-07-03 14:45:14,575:INFOlogs:Host server is connected to the broker
+2024-07-03 14:45:15,589:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-06-28 14:33:20,051:INFOwerkzeug:[33mPress CTRL+C to quit[0m
-2024-06-28 14:33:31,976:INFO__main__:Subscriber Client is connected
-2024-06-28 14:35:07,177:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:35:07] "GET / HTTP/1.1" 200 -
-2024-06-28 14:36:57,799:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:36:57] "POST / HTTP/1.1" 200 -
-2024-06-28 14:36:57,799:INFO__main__:Message is published
-2024-06-28 14:36:57,799:INFO__main__:Received message '{"username": "kouushik", "password": "nwefj"}' on topic 'post'
-2024-06-28 14:36:57,800:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
-2024-06-28 14:36:57,802:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
-FROM users2 
-WHERE users2.username = ?
- LIMIT ? OFFSET ?
-2024-06-28 14:36:57,802:INFOsqlalchemy.engine.Engine:[generated in 0.00016s] ('kouushik', 1, 0)
-2024-06-28 14:36:57,803:INFOsqlalchemy.engine.Engine:INSERT INTO users2 (username, password) VALUES (?, ?)
-2024-06-28 14:36:57,803:INFOsqlalchemy.engine.Engine:[generated in 0.00012s] ('kouushik', 'nwefj')
-2024-06-28 14:36:57,804:INFOsqlalchemy.engine.Engine:COMMIT
-2024-06-28 14:36:57,809:INFO__main__:New User 'kouushik' successfully added to the database
-2024-06-28 14:37:54,621:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:37:54] "DELETE / HTTP/1.1" 200 -
-2024-06-28 14:37:54,621:INFO__main__:Message is published
-2024-06-28 14:37:54,621:INFO__main__:Received message '{"username": "kouushik", "password": "nwefj"}' on topic 'delete'
-2024-06-28 14:37:54,622:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
-2024-06-28 14:37:54,622:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
-FROM users2 
-WHERE users2.username = ?
- LIMIT ? OFFSET ?
-2024-06-28 14:37:54,622:INFOsqlalchemy.engine.Engine:[cached since 56.82s ago] ('kouushik', 1, 0)
-2024-06-28 14:37:54,623:INFOsqlalchemy.engine.Engine:DELETE FROM users2 WHERE users2.username = ?
-2024-06-28 14:37:54,623:INFOsqlalchemy.engine.Engine:[generated in 0.00012s] ('kouushik',)
-2024-06-28 14:37:54,624:INFOsqlalchemy.engine.Engine:COMMIT
-2024-06-28 14:37:54,629:INFO__main__:User 'kouushik' deleted successfully
-2024-06-28 14:39:24,419:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:39:24] "POST / HTTP/1.1" 200 -
-2024-06-28 14:39:24,419:INFO__main__:Message is published
-2024-06-28 14:39:24,420:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'post'
-2024-06-28 14:39:24,420:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
-2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
-FROM users2 
-WHERE users2.username = ?
- LIMIT ? OFFSET ?
-2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:[cached since 146.6s ago] ('koushik', 1, 0)
-2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:INSERT INTO users2 (username, password) VALUES (?, ?)
-2024-06-28 14:39:24,421:INFOsqlalchemy.engine.Engine:[cached since 146.6s ago] ('koushik', 'nwefj')
-2024-06-28 14:39:24,422:INFOsqlalchemy.engine.Engine:COMMIT
-2024-06-28 14:39:24,424:INFO__main__:New User 'koushik' successfully added to the database
-2024-06-28 14:40:00,729:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:40:00] "DELETE / HTTP/1.1" 200 -
-2024-06-28 14:40:00,730:INFO__main__:Message is published
-2024-06-28 14:40:00,730:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'delete'
-2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
-2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
-FROM users2 
-WHERE users2.username = ?
- LIMIT ? OFFSET ?
-2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:[cached since 182.9s ago] ('koushik', 1, 0)
-2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:DELETE FROM users2 WHERE users2.username = ?
-2024-06-28 14:40:00,731:INFOsqlalchemy.engine.Engine:[cached since 126.1s ago] ('koushik',)
-2024-06-28 14:40:00,732:INFOsqlalchemy.engine.Engine:COMMIT
-2024-06-28 14:40:00,738:INFO__main__:User 'koushik' deleted successfully
-2024-06-28 14:48:22,414:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:48:22] "DELETE / HTTP/1.1" 200 -
-2024-06-28 14:48:22,414:INFO__main__:Message is published
-2024-06-28 14:48:22,414:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'delete'
-2024-06-28 14:48:22,415:INFOsqlalchemy.engine.Engine:BEGIN (implicit)
-2024-06-28 14:48:22,415:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
-FROM users2 
-WHERE users2.username = ?
- LIMIT ? OFFSET ?
-2024-06-28 14:48:22,415:INFOsqlalchemy.engine.Engine:[cached since 684.6s ago] ('koushik', 1, 0)
-2024-06-28 14:48:22,415:WARNING__main__:User not found in database
-2024-06-28 14:48:33,749:INFOwerkzeug:127.0.0.1 - - [28/Jun/2024 14:48:33] "DELETE / HTTP/1.1" 200 -
-2024-06-28 14:48:33,750:INFO__main__:Message is published
-2024-06-28 14:48:33,750:INFO__main__:Received message '{"username": "koushik", "password": "nwefj"}' on topic 'delete'
-2024-06-28 14:48:33,751:INFOsqlalchemy.engine.Engine:SELECT users2.username AS users2_username, users2.password AS users2_password 
-FROM users2 
-WHERE users2.username = ?
- LIMIT ? OFFSET ?
-2024-06-28 14:48:33,751:INFOsqlalchemy.engine.Engine:[cached since 695.9s ago] ('koushik', 1, 0)
-2024-06-28 14:48:33,751:WARNING__main__:User not found in database
+2024-07-03 14:45:15,589:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-03 14:45:51,804:INFOlogs:Host server is connected to the broker
+2024-07-03 14:45:52,806:INFOlogs:Host server is connected to the broker
+2024-07-03 14:47:33,456:INFOlogs:Host server is connected to the broker
+2024-07-03 14:47:34,457:INFOlogs:Host server is connected to the broker
+2024-07-03 14:49:57,814:INFOlogs:Host server is connected to the broker
+2024-07-03 14:49:58,815:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:11,033:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:12,034:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:20,591:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:21,593:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:22,860:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:23,862:INFOlogs:Host server is connected to the broker
+2024-07-03 14:51:02,877:INFOlogs:Host server is connected to the broker
+2024-07-03 15:05:15,958:INFOlogs:Subscriber Client is connected
+2024-07-03 15:05:26,061:INFOlogs:Message is published
+2024-07-03 15:05:26,062:INFOlogs:Received message '{"username": "Kethan", "password": 100000, "course_id": 2}' on topic 'post'
+2024-07-03 15:05:26,068:INFOlogs:New User 'Kethan' successfully added to the database
+2024-07-03 15:30:49,075:INFOlogs:Host server is connected to the broker
+2024-07-03 15:30:50,077:INFOlogs:Host server is connected to the broker
+2024-07-03 15:30:53,355:INFOlogs:Host server is connected to the broker
+2024-07-03 15:30:54,358:INFOlogs:Host server is connected to the broker
+2024-07-03 15:49:51,885:INFOlogs:Host server is connected to the broker
+2024-07-03 15:49:52,885:INFOlogs:Host server is connected to the broker
+2024-07-03 15:52:11,357:INFOlogs:Host server is connected to the broker
+2024-07-03 15:52:12,358:INFOlogs:Host server is connected to the broker
+2024-07-03 15:52:54,963:INFOlogs:Host server is connected to the broker
+2024-07-03 15:54:30,379:INFOlogs:Host server is connected to the broker
+2024-07-03 15:54:43,871:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:55:33,398:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:55:40,559:ERRORapp2:Exception on /course/2 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:56:47,653:ERRORapp2:Exception on /course/2 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:57:14,088:INFOlogs:Host server is connected to the broker
+2024-07-03 15:57:18,556:INFOlogs:Host server is connected to the broker
+2024-07-03 15:57:45,899:ERRORapp2:Exception on /course> [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+TypeError: get_course() missing 1 required positional argument: 'course_id'
+2024-07-03 15:58:24,215:INFOlogs:Host server is connected to the broker
+2024-07-03 15:58:28,714:INFOlogs:Subscriber Client is connected
+2024-07-03 15:58:33,664:INFOlogs:Host server is connected to the broker
+2024-07-03 15:58:40,203:INFOlogs:Host server is connected to the broker
+2024-07-03 15:58:51,690:ERRORapp2:Exception on /course [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+TypeError: get_course() missing 1 required positional argument: 'course_id'
+2024-07-03 16:00:13,913:INFOlogs:Host server is connected to the broker
+2024-07-03 16:00:14,914:INFOlogs:Host server is connected to the broker
+2024-07-03 16:00:22,773:INFOlogs:Host server is connected to the broker
+2024-07-03 16:00:27,605:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 16:00:52,166:INFOlogs:Subscriber Client is connected
+2024-07-03 16:00:57,715:INFOlogs:Host server is connected to the broker
+2024-07-03 16:00:58,885:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 16:00:58,886:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-03 16:03:37,066:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:03:37] "GET / HTTP/1.1" 200 -
+2024-07-03 16:03:50,642:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 16:03:50,643:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:03:50] "[35m[1mGET /course/1 HTTP/1.1[0m" 500 -
+2024-07-03 16:04:48,555:INFOlogs:Host server is connected to the broker
+2024-07-03 16:04:48,742:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 16:04:48,742:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-03 16:04:51,921:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:04:51] "GET /course/1 HTTP/1.1" 200 -
+2024-07-03 16:05:01,931:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:05:01] "GET /course/1 HTTP/1.1" 200 -
+2024-07-03 16:12:32,242:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:12:32] "GET /course/1 HTTP/1.1" 200 -
+2024-07-03 16:12:53,573:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:12:53] "GET /course/1 HTTP/1.1" 200 -
+2024-07-03 16:12:57,328:INFOlogs:Host server is connected to the broker
+2024-07-03 16:12:58,501:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 16:12:58,502:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-03 16:13:00,547:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 19, in get_course
+    course_json = [course.to_dict() for course in courses]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 19, in <listcomp>
+    course_json = [course.to_dict() for course in courses]
+AttributeError: 'Person' object has no attribute 'to_dict'
+2024-07-03 16:13:00,548:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:13:00] "[35m[1mGET /course/1 HTTP/1.1[0m" 500 -
+2024-07-03 16:15:52,465:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 19, in get_course
+    course_json = [course.to_dict() for course in courses]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 19, in <listcomp>
+    course_json = [course.to_dict() for course in courses]
+AttributeError: 'Person' object has no attribute 'to_dict'
+2024-07-03 16:15:52,465:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:15:52] "[35m[1mGET /course/1 HTTP/1.1[0m" 500 -
+2024-07-03 16:16:06,299:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 19, in get_course
+    course_json = [course.to_dict() for course in courses]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 19, in <listcomp>
+    course_json = [course.to_dict() for course in courses]
+AttributeError: 'Person' object has no attribute 'to_dict'
+2024-07-03 16:16:06,300:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:16:06] "[35m[1mGET /course/1 HTTP/1.1[0m" 500 -
+2024-07-03 16:16:18,471:INFOlogs:Host server is connected to the broker
+2024-07-03 16:16:19,656:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 16:16:19,656:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-03 16:16:21,677:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:16:21] "GET /course/1 HTTP/1.1" 200 -
+2024-07-03 16:16:56,571:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:16:56] "GET /course/2 HTTP/1.1" 200 -
+2024-07-03 16:20:40,624:INFOwerkzeug:127.0.0.1 - - [03/Jul/2024 16:20:40] "GET /course/1 HTTP/1.1" 200 -
+2024-07-03 16:21:50,425:INFOlogs:Host server is connected to the broker
+2024-07-03 16:21:57,737:INFOlogs:Host server is connected to the broker
+2024-07-03 16:23:18,904:INFOlogs:Message is published
+2024-07-03 16:23:18,904:INFOlogs:Received message '{"username": "Kethan23", "password": "1223e", "course_id": 2}' on topic 'post'
+2024-07-03 16:23:18,910:INFOlogs:New User 'Kethan23' successfully added to the database
+2024-07-03 16:24:00,352:INFOlogs:Message is published
+2024-07-03 16:24:00,352:INFOlogs:Received message '{"username": "Kethan765", "password": "1223334", "course_id": 2}' on topic 'post'
+2024-07-03 16:24:00,359:INFOlogs:New User 'Kethan765' successfully added to the database
+2024-07-03 16:25:45,412:INFOlogs:Message is published
+2024-07-03 16:25:45,412:INFOlogs:Received message '{"course_id": 3, "course_name": "Logical Reasoning", "course_fees": 4999}' on topic 'post1'
+2024-07-03 16:25:45,419:INFOlogs:New Course 'Logical Reasoning' successfully added to the database
+2024-07-04 15:59:29,779:INFOlogs:Host server is connected to the broker
+2024-07-04 15:59:31,014:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-04 15:59:31,014:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-04 15:59:53,078:INFOwerkzeug:127.0.0.1 - - [04/Jul/2024 15:59:53] "GET / HTTP/1.1" 200 -
+2024-07-04 16:00:41,763:INFOlogs:Host server is connected to the broker
+2024-07-04 16:02:22,817:INFOlogs:Host server is connected to the broker
+2024-07-04 16:03:38,000:INFOlogs:Host server is connected to the broker
+2024-07-05 16:19:49,585:INFOlogs:Host server is connected to the broker
+2024-07-05 16:21:40,812:INFOlogs:Message is published
+2024-07-05 16:22:24,988:INFOlogs:Subscriber Client is connected
+2024-07-05 16:22:34,098:INFOlogs:Message is published
+2024-07-05 16:22:34,098:INFOlogs:Received message '{"username": "Chris", "password": "ChrisinIndia", "course_id": 2}' on topic 'post'
+2024-07-05 16:22:34,109:INFOlogs:New User 'Chris' successfully added to the database
+2024-07-05 16:27:06,106:INFOlogs:Message is published
+2024-07-05 16:27:06,106:INFOlogs:Received message '{"username": "Chris", "password": "ChrisinIndia", "course_id": 2}' on topic 'post'
+2024-07-05 16:27:06,107:WARNINGlogs:Username already taken. Please try new username
+2024-07-05 16:27:29,119:INFOlogs:Message is published
+2024-07-05 16:27:29,119:INFOlogs:Received message '{"username": "Chris123", "password": "ChrisfromSIng", "course_id": 2}' on topic 'post'
+2024-07-05 16:27:29,127:INFOlogs:New User 'Chris123' successfully added to the database
+2024-07-05 16:31:35,157:INFOlogs:Host server is connected to the broker
+2024-07-05 16:31:35,161:INFOlogs:Host server is connected to the broker
+2024-07-05 16:31:36,166:INFOlogs:Host server is connected to the broker
+2024-07-05 16:31:37,170:INFOlogs:Host server is connected to the broker
+2024-07-05 16:31:57,306:INFOlogs:Host server is connected to the broker
+2024-07-05 16:31:58,307:INFOlogs:Host server is connected to the broker
+2024-07-05 16:32:39,010:INFOlogs:GET request is fetched from users
+2024-07-05 16:32:47,137:INFOlogs:Message is published
+2024-07-05 16:32:47,137:INFOlogs:Received message '{"username": "Chris123", "password": "ChrisfromSIng", "course_id": 2}' on topic 'post'
+2024-07-05 16:32:47,138:WARNINGlogs:Username already taken. Please try new username
+2024-07-05 16:33:01,971:INFOlogs:Host server is connected to the broker
+2024-07-05 16:33:02,974:INFOlogs:Host server is connected to the broker
+2024-07-05 16:33:10,738:INFOlogs:Subscriber Client is connected
+2024-07-05 16:33:20,060:INFOlogs:Message is published
+2024-07-05 16:33:20,060:INFOlogs:Received message '{"username": "Chris123", "password": "ChrisfromSIng", "course_id": 2}' on topic 'post'
+2024-07-05 16:33:20,064:WARNINGlogs:Username already taken. Please try new username
+2024-07-05 16:35:31,125:INFOlogs:Host server is connected to the broker
+2024-07-05 16:35:34,191:INFOlogs:GET request is fetched from users
+2024-07-05 16:37:53,730:INFOlogs:Message is published
+2024-07-05 16:37:53,730:INFOlogs:Received message '{"username": "Chris123", "password": "ChrisfromSIng", "course_id": 2}' on topic 'post'
+2024-07-05 16:37:53,731:WARNINGlogs:Username already taken. Please try new username
+2024-07-05 16:38:01,426:INFOlogs:Message is published
+2024-07-05 16:38:01,426:INFOlogs:Received message '{"username": "Chris123", "password": "ChrisfromSIng", "course_id": 2}' on topic 'post'
+2024-07-05 16:38:01,427:WARNINGlogs:Username already taken. Please try new username
+2024-07-05 16:38:26,112:INFOlogs:Host server is connected to the broker
+2024-07-05 16:38:32,354:INFOlogs:POST request is used from users
+2024-07-05 16:38:32,354:INFOlogs:Message is published
+2024-07-05 16:38:32,355:INFOlogs:Received message '{"username": "Chris123", "password": "ChrisfromSIng", "course_id": 2}' on topic 'post'
+2024-07-05 16:38:32,356:WARNINGlogs:Username already taken. Please try new username

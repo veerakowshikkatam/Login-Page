@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from publish_file import client
+from source.publish_file import client
 import json
 
 courses = Blueprint("courses", __name__, url_prefix="/courses")
@@ -17,5 +17,7 @@ def get_courses():
     if request.method == "DELETE":
         info = request.json
         client.publish("delete1", json.dumps(info))
-
     return "This is courses page"
+
+
+

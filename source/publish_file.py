@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 import time
-from logs import logger
+from source.logs import logger
 
 def on_connect(client, userdata, flags, rc):
     if rc == 0:

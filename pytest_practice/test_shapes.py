@@ -1,4 +1,5 @@
-import shapes, time
+import time
+from pytest_practice import shapes
 from math import pi
 import pytest
 
@@ -13,7 +14,7 @@ def test_perimeter(my_rectangle):
 def test_area_of_circle(my_circle):
     circle = shapes.Circle(4.5)
     assert my_circle.area_of_circle() == pi*10*10
-    time.sleep(5)
+    time.sleep(0.5)
     assert circle.area_of_circle() == pi*4.5*4.5
 
 #We are telling ourselves that it will fail, it will be shown as "x" in cmd

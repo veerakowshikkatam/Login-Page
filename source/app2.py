@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
-from courses import courses
-from users import users
-from database2 import db, Person
+from source.users import users
+from source.database2 import db, Person
+from source.courses import courses
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'

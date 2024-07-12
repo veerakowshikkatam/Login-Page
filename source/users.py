@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request
-from publish_file import client
-from logs import logger
+from source.publish_file import client
+from source.logs import logger
 import json
 
 users = Blueprint("users", __name__, url_prefix="/users")
@@ -9,6 +9,7 @@ users = Blueprint("users", __name__, url_prefix="/users")
 def get_users():
     if request.method == "GET":
         logger.info("GET request is fetched from users")
+
     if request.method == "POST":
         info = request.json
         logger.info("POST request is used from users")

@@ -1,5 +1,5 @@
 import pytest
-from dict import Database
+from source.dict import Database
 
 @pytest.fixture
 def mock_database():

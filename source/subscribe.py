@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import json
-from database2 import Person, db, Courses
-from logs import logger
+from source.database2 import Person, db, Courses
+from source.logs import logger
 from flask import Flask
 
 app = Flask(__name__)
@@ -132,6 +132,4 @@ client.on_connect = on_connect
 client.on_message = on_message
 client.connect(broker_address, port=port)
 
-
 client.loop_forever()
-app.run(port = 5001)

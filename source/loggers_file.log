@@ -1,0 +1,1096 @@
+2024-07-02 17:26:35,442:INFOlogs:Subscriber Client is connected
+2024-07-02 17:26:39,858:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:39] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:26:39,860:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:39] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:26:39,860:INFOlogs:Message is published
+2024-07-02 17:26:39,860:INFOlogs:Received message '{"username": "Kowshik123", "password": "10001", "course_id": 1}' on topic 'post'
+2024-07-02 17:26:39,864:INFOlogs:Kowshik123
+2024-07-02 17:26:39,864:WARNINGlogs:Username already taken. Please try new username
+2024-07-02 17:26:47,146:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:47] "[32mPUT /users HTTP/1.1[0m" 308 -
+2024-07-02 17:26:47,148:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:26:47] "PUT /users/ HTTP/1.1" 200 -
+2024-07-02 17:26:47,149:INFOlogs:Message is published
+2024-07-02 17:26:47,149:INFOlogs:Received message '{"username": "Kowshik123", "password": "10001", "course_id": 1}' on topic 'put'
+2024-07-02 17:26:47,150:WARNINGlogs:Password is Matching again. Please try new password
+2024-07-02 17:27:07,575:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:07] "[32mPUT /users HTTP/1.1[0m" 308 -
+2024-07-02 17:27:07,577:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:07] "PUT /users/ HTTP/1.1" 200 -
+2024-07-02 17:27:07,577:INFOlogs:Message is published
+2024-07-02 17:27:07,577:INFOlogs:Received message '{"username": "Kowshik123", "password": "10007", "course_id": 1}' on topic 'put'
+2024-07-02 17:27:07,585:INFOlogs:Password is Changed successfully. PUT request is done
+2024-07-02 17:27:31,012:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:31] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:27:31,015:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:27:31] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:27:31,015:INFOlogs:Message is published
+2024-07-02 17:27:31,015:INFOlogs:Received message '{"username": "Kowshik123", "password": "10007", "course_id": 1}' on topic 'post'
+2024-07-02 17:27:31,016:INFOlogs:Kowshik123
+2024-07-02 17:27:31,016:WARNINGlogs:Username already taken. Please try new username
+2024-07-02 17:28:07,827:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:28:07] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:28:07,829:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:28:07] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:28:07,830:INFOlogs:Message is published
+2024-07-02 17:28:07,830:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'post'
+2024-07-02 17:28:07,831:INFOlogs:Kowshi2345
+2024-07-02 17:28:07,837:INFOlogs:New User 'Kowshi2345' successfully added to the database
+2024-07-02 17:30:49,862:INFOlogs:Subscriber Client is connected
+2024-07-02 17:30:56,204:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:30:56] "[32mPOST /users HTTP/1.1[0m" 308 -
+2024-07-02 17:30:56,207:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:30:56] "POST /users/ HTTP/1.1" 200 -
+2024-07-02 17:30:56,207:INFOlogs:Message is published
+2024-07-02 17:30:56,208:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'post'
+2024-07-02 17:30:56,212:INFOlogs:Kowshi2345
+2024-07-02 17:30:56,212:WARNINGlogs:Username already taken. Please try new username
+2024-07-02 17:31:03,401:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:03] "[32mDELETE /users HTTP/1.1[0m" 308 -
+2024-07-02 17:31:03,403:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:03] "DELETE /users/ HTTP/1.1" 200 -
+2024-07-02 17:31:03,403:INFOlogs:Message is published
+2024-07-02 17:31:03,403:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'delete'
+2024-07-02 17:31:03,410:INFOlogs:User 'Kowshi2345' deleted successfully
+2024-07-02 17:31:19,313:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:19] "[32mDELETE /users HTTP/1.1[0m" 308 -
+2024-07-02 17:31:19,316:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:31:19] "DELETE /users/ HTTP/1.1" 200 -
+2024-07-02 17:31:19,316:INFOlogs:Message is published
+2024-07-02 17:31:19,316:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'delete'
+2024-07-02 17:31:19,317:WARNINGlogs:User not found in database
+2024-07-02 17:33:29,369:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:29] "[32mGET /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:33:29,382:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:29] "GET /courses/ HTTP/1.1" 200 -
+2024-07-02 17:33:35,624:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:35] "[32mGET /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:33:35,626:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:35] "GET /courses/ HTTP/1.1" 200 -
+2024-07-02 17:33:47,148:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:47] "[32mPUT /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:33:47,150:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:33:47] "PUT /courses/ HTTP/1.1" 200 -
+2024-07-02 17:33:47,151:INFOlogs:Message is published
+2024-07-02 17:33:47,151:INFOlogs:Received message '{"username": "Kowshi2345", "password": "10007", "course_id": 1}' on topic 'put1'
+2024-07-02 17:33:47,151:WARNINGlogs:Put method is not applicable for the courses
+2024-07-02 17:36:07,025:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:36:07] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:36:07,027:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:36:07] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:36:07,027:INFOlogs:Message is published
+2024-07-02 17:36:07,028:INFOlogs:Received message '{"course_name": "Python", "course_fees": "10007"}' on topic 'post1'
+2024-07-02 17:37:24,018:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:24] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:37:24,020:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:24] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:37:24,020:INFOlogs:Message is published
+2024-07-02 17:37:26,908:INFOlogs:Subscriber Client is connected
+2024-07-02 17:37:28,974:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:28] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:37:28,976:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:28] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:37:28,977:INFOlogs:Message is published
+2024-07-02 17:37:28,977:INFOlogs:Received message '{"course_name": "Python", "course_fees": "10007"}' on topic 'post1'
+2024-07-02 17:37:28,987:INFOlogs:New Course 'Python' successfully added to the database
+2024-07-02 17:37:55,671:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:55] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:37:55,675:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:37:55] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:37:55,675:INFOlogs:Message is published
+2024-07-02 17:37:55,675:INFOlogs:Received message '{"course_name": "Python", "course_fees": 100000}' on topic 'post1'
+2024-07-02 17:37:55,676:WARNINGlogs:Course already in use. Please try to add new course
+2024-07-02 17:38:11,970:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:38:11] "[32mPOST /courses HTTP/1.1[0m" 308 -
+2024-07-02 17:38:11,972:INFOwerkzeug:127.0.0.1 - - [02/Jul/2024 17:38:11] "POST /courses/ HTTP/1.1" 200 -
+2024-07-02 17:38:11,972:INFOlogs:Message is published
+2024-07-02 17:38:11,972:INFOlogs:Received message '{"course_name": "Java", "course_fees": 100000}' on topic 'post1'
+2024-07-02 17:38:11,979:INFOlogs:New Course 'Java' successfully added to the database
+2024-07-03 14:45:14,575:INFOlogs:Host server is connected to the broker
+2024-07-03 14:45:15,589:INFOwerkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-03 14:45:15,589:INFOwerkzeug:[33mPress CTRL+C to quit[0m
+2024-07-03 14:45:51,804:INFOlogs:Host server is connected to the broker
+2024-07-03 14:45:52,806:INFOlogs:Host server is connected to the broker
+2024-07-03 14:47:33,456:INFOlogs:Host server is connected to the broker
+2024-07-03 14:47:34,457:INFOlogs:Host server is connected to the broker
+2024-07-03 14:49:57,814:INFOlogs:Host server is connected to the broker
+2024-07-03 14:49:58,815:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:11,033:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:12,034:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:20,591:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:21,593:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:22,860:INFOlogs:Host server is connected to the broker
+2024-07-03 14:50:23,862:INFOlogs:Host server is connected to the broker
+2024-07-03 14:51:02,877:INFOlogs:Host server is connected to the broker
+2024-07-03 15:05:15,958:INFOlogs:Subscriber Client is connected
+2024-07-03 15:05:26,061:INFOlogs:Message is published
+2024-07-03 15:05:26,062:INFOlogs:Received message '{"username": "Kethan", "password": 100000, "course_id": 2}' on topic 'post'
+2024-07-03 15:05:26,068:INFOlogs:New User 'Kethan' successfully added to the database
+2024-07-03 15:30:49,075:INFOlogs:Host server is connected to the broker
+2024-07-03 15:30:50,077:INFOlogs:Host server is connected to the broker
+2024-07-03 15:30:53,355:INFOlogs:Host server is connected to the broker
+2024-07-03 15:30:54,358:INFOlogs:Host server is connected to the broker
+2024-07-03 15:49:51,885:INFOlogs:Host server is connected to the broker
+2024-07-03 15:49:52,885:INFOlogs:Host server is connected to the broker
+2024-07-03 15:52:11,357:INFOlogs:Host server is connected to the broker
+2024-07-03 15:52:12,358:INFOlogs:Host server is connected to the broker
+2024-07-03 15:52:54,963:INFOlogs:Host server is connected to the broker
+2024-07-03 15:54:30,379:INFOlogs:Host server is connected to the broker
+2024-07-03 15:54:43,871:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:55:33,398:ERRORapp2:Exception on /course/1 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:55:40,559:ERRORapp2:Exception on /course/2 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+RuntimeError: The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-07-03 15:56:47,653:ERRORapp2:Exception on /course/2 [GET]
+Traceback (most recent call last):
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/kkatam/Downloads/Python Flask/app2.py", line 16, in get_course
+    course = db.session.query(Person).filter(Person.course_id == course_id).all()
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+    return self._execute_internal(
+  File "/home/kkatam/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2224, in _execute_internal
+    bind = self.get_bind(**bind_arguments)
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/session.py", line 53, in get_bind
+    engines = self._db.engines
+  File "/home/kkatam/.local/lib/python3.8/site-packages/flask_sqlalchemy/extension.py", line 690, in engines
+    raise RuntimeError(
+2024-07-11 17:13:04,539:INFOlogs:Host server is connected to the broker
+2024-07-11 17:14:20,381:INFOlogs:Host server is connected to the broker
+2024-07-11 17:15:09,732:INFOlogs:Host server is connected to the broker
+2024-07-11 17:15:24,201:INFOlogs:Host server is connected to the broker
+2024-07-11 17:16:33,884:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:12,343:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:14,345:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:16,349:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:18,354:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:20,357:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:22,361:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:24,365:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:26,369:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:28,373:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:30,377:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:32,381:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:34,385:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:36,389:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:38,393:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:39,606:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:41,400:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:42,613:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:44,407:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:45,619:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:47,412:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:48,625:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:50,419:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:51,632:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:53,425:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:54,639:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:56,433:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:57,645:INFOlogs:Host server is connected to the broker
+2024-07-11 17:28:59,440:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:00,652:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:02,447:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:03,658:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:05,453:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:06,665:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:08,460:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:09,672:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:11,465:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:12,677:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:14,472:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:15,684:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:17,479:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:18,689:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:20,485:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:21,697:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:23,492:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:24,703:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:26,499:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:27,709:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:29,505:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:30,716:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:32,512:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:33,723:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:35,519:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:36,733:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:38,526:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:39,739:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:41,533:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:42,747:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:44,540:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:45,752:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:47,547:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:48,760:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:50,553:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:51,765:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:53,559:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:54,772:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:56,566:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:57,778:INFOlogs:Host server is connected to the broker
+2024-07-11 17:29:59,574:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:00,785:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:02,581:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:03,791:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:05,589:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:06,799:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:08,595:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:09,804:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:11,601:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:12,811:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:14,814:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:55,402:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:57,407:INFOlogs:Host server is connected to the broker
+2024-07-11 17:30:59,411:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:01,415:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:03,419:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:05,424:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:07,428:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:09,431:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:11,436:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:13,441:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:15,445:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:17,449:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:19,454:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:21,458:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:23,461:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:41,806:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:43,812:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:45,816:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:47,819:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:49,823:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:51,826:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:53,830:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:55,833:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:57,837:INFOlogs:Host server is connected to the broker
+2024-07-11 17:31:59,841:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:04,576:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:06,586:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:08,591:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:10,595:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:12,599:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:14,603:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:16,607:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:18,610:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:20,614:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:22,619:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:24,623:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:26,627:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:28,631:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:30,635:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:32,639:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:34,643:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:36,647:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:38,651:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:40,655:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:42,659:INFOlogs:Host server is connected to the broker
+2024-07-11 17:32:47,530:INFOlogs:Host server is connected to the broker
+2024-07-11 17:33:03,269:INFOlogs:Host server is connected to the broker
+2024-07-11 17:33:46,909:INFOlogs:Host server is connected to the broker
+2024-07-11 17:34:07,796:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:20,603:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:22,608:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:24,611:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:26,616:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:28,619:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:30,624:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:32,628:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:34,255:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:35,635:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:37,260:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:38,641:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:40,267:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:41,647:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:43,275:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:44,654:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:46,281:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:47,661:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:49,287:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:50,668:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:52,293:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:53,673:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:55,299:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:56,680:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:58,305:INFOlogs:Host server is connected to the broker
+2024-07-11 17:36:59,688:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:01,312:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:02,695:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:04,318:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:05,702:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:07,326:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:08,709:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:10,332:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:11,713:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:13,338:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:14,720:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:16,344:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:17,725:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:19,349:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:20,732:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:22,355:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:23,738:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:25,361:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:26,745:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:28,366:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:29,749:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:31,372:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:32,755:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:34,378:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:35,760:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:37,385:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:38,766:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:44,191:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:46,195:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:48,199:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:50,204:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:52,208:INFOlogs:Host server is connected to the broker
+2024-07-11 17:37:54,211:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:09,455:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:47,269:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:49,279:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:51,283:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:53,288:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:55,291:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:57,296:INFOlogs:Host server is connected to the broker
+2024-07-11 17:38:59,299:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:01,304:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:03,308:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:05,312:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:07,316:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:09,319:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:11,323:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:13,327:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:15,331:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:17,335:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:19,339:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:21,344:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:26,161:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:28,165:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:30,169:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:32,173:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:34,177:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:36,181:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:38,185:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:40,188:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:42,192:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:44,196:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:46,201:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:48,205:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:50,208:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:52,212:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:54,217:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:56,220:INFOlogs:Host server is connected to the broker
+2024-07-11 17:39:58,224:INFOlogs:Host server is connected to the broker
+2024-07-11 17:40:00,228:INFOlogs:Host server is connected to the broker
+2024-07-11 17:40:02,233:INFOlogs:Host server is connected to the broker
+2024-07-11 17:40:12,279:INFOlogs:Host server is connected to the broker
+2024-07-11 17:40:17,361:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:47,327:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:49,332:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:51,335:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:53,115:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:54,341:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:56,121:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:57,348:INFOlogs:Host server is connected to the broker
+2024-07-11 17:43:59,127:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:00,353:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:02,133:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:03,359:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:05,140:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:06,365:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:08,146:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:09,371:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:11,152:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:12,377:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:14,157:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:15,383:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:17,162:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:18,388:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:20,169:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:21,393:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:23,174:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:24,399:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:26,180:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:27,405:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:29,185:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:30,411:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:32,189:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:33,416:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:35,194:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:36,420:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:38,200:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:39,426:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:41,205:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:42,432:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:44,211:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:45,436:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:47,216:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:48,441:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:50,221:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:51,446:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:53,225:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:54,451:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:56,230:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:57,456:INFOlogs:Host server is connected to the broker
+2024-07-11 17:44:59,234:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:00,461:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:02,239:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:03,467:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:05,245:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:06,474:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:08,251:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:09,479:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:11,256:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:12,484:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:14,260:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:15,491:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:17,266:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:18,497:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:20,271:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:21,503:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:23,277:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:24,509:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:26,284:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:27,515:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:29,289:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:30,522:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:32,294:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:33,527:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:35,299:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:36,532:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:38,305:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:39,537:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:41,311:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:42,542:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:44,317:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:45,548:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:47,322:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:48,553:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:50,327:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:51,560:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:53,333:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:54,567:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:56,340:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:57,573:INFOlogs:Host server is connected to the broker
+2024-07-11 17:45:59,347:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:00,580:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:02,353:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:03,585:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:05,360:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:06,592:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:08,365:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:09,599:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:11,371:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:12,605:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:14,377:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:15,611:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:17,384:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:18,617:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:20,389:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:21,623:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:23,395:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:24,629:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:26,401:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:27,636:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:29,406:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:30,641:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:32,414:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:33,647:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:35,419:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:36,654:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:38,426:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:39,660:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:41,431:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:42,666:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:44,437:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:45,674:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:47,442:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:48,678:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:50,447:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:51,683:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:53,453:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:54,688:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:56,458:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:57,693:INFOlogs:Host server is connected to the broker
+2024-07-11 17:46:59,464:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:00,699:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:02,468:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:03,704:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:05,474:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:06,708:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:08,478:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:09,713:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:11,485:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:12,720:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:14,491:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:15,727:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:17,497:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:18,734:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:20,502:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:21,741:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:23,509:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:24,748:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:26,515:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:27,753:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:29,521:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:30,760:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:32,527:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:33,767:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:35,533:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:36,772:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:38,541:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:39,777:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:41,548:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:42,783:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:44,555:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:45,789:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:47,561:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:48,795:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:50,568:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:51,802:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:53,573:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:54,808:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:56,580:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:57,813:INFOlogs:Host server is connected to the broker
+2024-07-11 17:47:59,587:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:00,819:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:02,594:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:03,826:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:05,601:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:06,832:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:08,607:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:09,839:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:11,615:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:12,845:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:14,622:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:15,851:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:17,629:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:18,857:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:20,635:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:21,864:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:23,641:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:24,869:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:26,648:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:27,875:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:29,652:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:30,880:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:32,659:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:33,887:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:35,665:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:36,893:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:38,672:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:39,900:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:41,677:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:42,907:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:44,683:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:45,913:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:47,689:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:48,919:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:50,696:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:51,926:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:53,703:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:54,932:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:56,708:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:57,937:INFOlogs:Host server is connected to the broker
+2024-07-11 17:48:59,715:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:00,943:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:02,721:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:03,948:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:05,726:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:06,953:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:08,732:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:09,960:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:11,738:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:12,966:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:14,743:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:15,973:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:17,750:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:18,979:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:20,755:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:21,984:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:23,760:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:24,989:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:26,765:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:27,994:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:29,770:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:31,000:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:32,775:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:34,005:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:35,780:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:37,009:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:38,786:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:40,014:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:41,791:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:43,020:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:44,796:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:46,026:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:47,801:INFOlogs:Host server is connected to the broker
+2024-07-11 17:49:49,032:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:03,227:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:05,231:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:07,235:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:09,239:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:11,243:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:13,247:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:15,251:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:17,256:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:19,261:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:21,265:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:23,269:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:25,273:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:27,277:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:29,281:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:31,285:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:33,290:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:35,293:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:37,296:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:39,301:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:41,304:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:43,308:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:45,312:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:47,315:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:49,318:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:51,321:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:53,324:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:55,328:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:57,332:INFOlogs:Host server is connected to the broker
+2024-07-11 17:51:59,336:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:01,339:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:03,343:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:05,346:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:07,351:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:09,355:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:11,359:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:13,363:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:15,367:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:17,372:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:19,376:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:21,379:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:23,382:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:25,387:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:27,392:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:29,396:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:31,401:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:33,405:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:35,409:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:37,413:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:39,416:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:41,421:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:43,424:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:45,427:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:47,431:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:49,435:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:51,439:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:55,198:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:57,209:INFOlogs:Host server is connected to the broker
+2024-07-11 17:52:59,213:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:01,218:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:03,221:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:05,225:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:07,229:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:09,233:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:11,237:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:13,241:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:15,245:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:17,248:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:19,253:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:21,258:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:23,261:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:25,266:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:27,270:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:29,275:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:31,279:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:33,283:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:35,287:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:37,291:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:39,295:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:41,299:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:43,304:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:45,307:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:47,311:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:49,315:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:50,875:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:52,321:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:53,882:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:55,327:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:56,888:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:58,333:INFOlogs:Host server is connected to the broker
+2024-07-11 17:53:59,894:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:01,339:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:02,900:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:04,345:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:05,905:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:07,351:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:08,600:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:09,913:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:11,358:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:12,608:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:13,921:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:15,365:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:16,617:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:17,929:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:19,374:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:20,625:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:21,937:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:23,383:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:24,633:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:25,945:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:27,391:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:28,641:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:29,954:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:31,399:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:32,649:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:33,963:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:35,407:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:36,657:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:37,971:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:39,415:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:40,663:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:41,979:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:43,423:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:44,672:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:45,986:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:47,430:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:48,680:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:49,993:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:51,438:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:52,688:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:54,001:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:55,445:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:56,693:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:58,008:INFOlogs:Host server is connected to the broker
+2024-07-11 17:54:59,452:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:00,699:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:02,014:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:03,459:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:04,707:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:06,021:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:07,466:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:08,714:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:10,028:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:11,474:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:12,721:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:14,035:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:15,483:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:16,729:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:18,044:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:19,492:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:20,737:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:22,051:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:23,498:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:24,745:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:26,059:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:27,507:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:28,753:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:30,068:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:31,515:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:32,762:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:34,075:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:35,524:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:36,769:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:38,083:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:39,530:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:40,777:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:42,093:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:43,540:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:44,785:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:46,100:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:47,549:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:48,793:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:50,109:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:51,557:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:52,801:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:54,117:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:55,565:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:56,809:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:58,125:INFOlogs:Host server is connected to the broker
+2024-07-11 17:55:59,571:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:00,817:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:02,132:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:03,579:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:04,824:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:06,141:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:07,588:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:08,831:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:10,151:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:11,595:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:12,839:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:14,160:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:15,600:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:16,847:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:18,165:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:19,609:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:20,856:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:22,175:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:23,615:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:24,861:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:26,183:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:27,623:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:28,869:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:30,192:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:31,633:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:32,877:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:34,199:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:35,641:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:36,884:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:38,208:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:39,650:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:40,891:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:42,216:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:43,659:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:44,900:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:46,223:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:47,667:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:48,907:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:50,232:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:51,676:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:52,915:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:54,241:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:55,684:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:56,923:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:58,250:INFOlogs:Host server is connected to the broker
+2024-07-11 17:56:59,691:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:00,931:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:02,257:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:03,700:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:04,940:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:06,265:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:07,555:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:08,709:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:09,951:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:11,273:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:12,565:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:13,720:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:14,961:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:16,283:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:17,575:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:18,729:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:19,969:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:21,293:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:22,585:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:23,739:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:24,979:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:26,302:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:27,595:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:28,749:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:30,309:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:31,604:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:32,756:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:34,609:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:35,762:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:37,616:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:39,621:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:41,624:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:43,627:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:45,631:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:47,006:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:48,637:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:50,013:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:51,644:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:53,020:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:54,651:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:56,027:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:57,657:INFOlogs:Host server is connected to the broker
+2024-07-11 17:57:59,032:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:00,663:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:02,039:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:03,670:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:05,045:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:06,676:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:08,052:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:09,683:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:11,058:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:12,689:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:14,064:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:15,694:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:17,071:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:18,700:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:20,076:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:21,706:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:23,082:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:24,712:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:25,999:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:27,091:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:28,718:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:30,008:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:31,099:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:32,727:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:34,015:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:35,107:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:36,736:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:38,022:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:39,115:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:40,745:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:42,032:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:43,123:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:44,750:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:45,864:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:47,041:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:48,134:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:49,760:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:50,873:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:52,051:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:53,145:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:54,771:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:55,884:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:57,059:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:58,156:INFOlogs:Host server is connected to the broker
+2024-07-11 17:58:59,781:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:00,893:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:02,069:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:03,166:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:04,792:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:05,902:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:07,080:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:08,175:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:09,182:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:10,912:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:12,089:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:13,185:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:14,192:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:15,922:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:17,099:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:18,193:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:19,200:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:20,933:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:22,109:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:23,204:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:24,209:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:25,941:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:27,120:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:28,213:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:29,220:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:30,587:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:31,954:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:33,135:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:34,225:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:35,231:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:36,600:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:37,965:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:39,148:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:40,239:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:41,243:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:42,613:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:43,978:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:45,161:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:46,251:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:47,253:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:48,625:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:49,987:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:51,173:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:52,263:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:53,265:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:54,637:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:55,667:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:57,001:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:58,277:INFOlogs:Host server is connected to the broker
+2024-07-11 17:59:59,280:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:00,649:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:01,679:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:03,013:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:04,289:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:05,291:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:06,661:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:07,691:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:09,025:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:10,301:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:11,303:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:12,674:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:13,704:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:15,037:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:16,313:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:17,316:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:18,685:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:19,716:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:21,049:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:22,095:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:23,327:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:24,329:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:25,700:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:26,729:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:28,064:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:29,111:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:30,341:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:31,711:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:32,741:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:34,076:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:35,122:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:36,353:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:37,356:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:38,725:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:39,757:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:41,090:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:42,138:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:43,153:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:44,371:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:45,374:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:46,743:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:47,774:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:49,106:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:50,155:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:51,170:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:52,388:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:53,389:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:54,392:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:55,761:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:56,791:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:58,126:INFOlogs:Host server is connected to the broker
+2024-07-11 18:00:59,173:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:00,403:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:01,773:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:02,803:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:04,183:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:05,413:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:06,784:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:08,191:INFOlogs:Host server is connected to the broker
+2024-07-11 18:01:09,790:INFOlogs:Host server is connected to the broker

@@ -4,6 +4,11 @@ from source.database2 import db, Person
 from source.courses import courses
 
 app = Flask(__name__)
+app.config['SERVER_NAME'] = 'localhost:5000'  # Adjust to your server name and port
+app.config['APPLICATION_ROOT'] = '/'  # Adjust as per your application's root path
+app.config['PREFERRED_URL_SCHEME'] = 'http'  # Adjust to your preferred URL scheme
+app.secret_key = "kowshik"
+app.config['PROPAGATE_EXCEPTIONS'] = True
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db.init_app(app)
 app.register_blueprint(courses)

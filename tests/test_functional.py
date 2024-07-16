@@ -2,6 +2,8 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+
+from flask import jsonify
 import json
 import pytest
 from unittest.mock import patch
@@ -52,14 +54,20 @@ def test_delete_course_publish(client, courses_info):
     assert response.status_code == 200
     assert b"This is courses page" in response.data
 
-def test_on_connect(mock_mqtt_client):
+@pytest.mark.parametrize("rc, should_subscribe", [(0, True), (1, False)])
+def test_on_connect(mock_mqtt_client, rc, should_subscribe):
     from source.subscribe import on_connect
-    on_connect(mock_mqtt_client, None, None, 0)
+    on_connect(mock_mqtt_client, None, None, rc)
 
-    expected_topics = ["post", "put", "delete", "post1", "put1", "delete1"]
-    for topic in expected_topics:
-        mock_mqtt_client.subscribe.assert_any_call(topic)
-def test_on_message(mqtt_message):
+    if should_subscribe:
+        expected_topics = ["post", "put", "delete", "post1", "put1", "delete1"]
+        for topic in expected_topics:
+            mock_mqtt_client.subscribe.assert_any_call(topic)
+    else:
+        mock_mqtt_client.subscribe.assert_not_called()
+
+@pytest.mark.parametrize("topic",["post"])
+def test_on_message(mqtt_message, topic):
     mock_logger_info = MagicMock()
     mock_logger_warning = MagicMock()
     logger.info = mock_logger_info
@@ -72,7 +80,7 @@ def test_on_message(mqtt_message):
         "course_id": 1
     }
     message_payload = json.dumps(message_data)
-    message = mqtt_message(message_payload.encode(), "post")
+    message = mqtt_message(message_payload.encode(), topic)
 
     mock_client = MagicMock()
     mock_userdata = MagicMock()
@@ -88,30 +96,31 @@ def test_on_message(mqtt_message):
         mock_logger_warning.assert_called_once_with(f"No handler found for topic '{message.topic}'")
 
 
+def test_get_course(client):
+    # Sample data to return from the mocked query
+    new_user1 = Person("kowshik", "hjdfbvdf", 1)
+    new_user2 = Person("kerdsh","gshngf", 1)
+    db.session.add(new_user1)
+    db.session.add(new_user2)
+    db.session.commit()
 
-# @pytest.mark.parametrize("parameters")
-# def test_get_course(client):
-#     # Sample data to return from the mocked query
-#     new_user1 = Person("kowshik", "hjdfbvdf", 1)
-#     new_user2 = Person("kerdsh","gshngf", 1)
-#     db.session.add(new_user1)
-#     db.session.add(new_user2)
-#     db.session.commit()
-#
-#     response = client.get('/course/1')
-#     assert response.status_code == 200
-#     response_json = response.get_json()
-#     expected_json = db.session.query(Person).filter(Person.course_id == 1).all()
-#     assert response_json == expected_json
+    response = client.get('/course/1')
+    assert response.status_code == 200
+    response_json = response.get_json()
+    expected_json = db.session.query(Person).filter(Person.course_id == 1).all()
+    course_json = [course.to_dict() for course in expected_json]
+    assert response_json == course_json
+
 @pytest.mark.parametrize("message_data", [{
     "username": "test_user2",
     "password": "password",
     "course_id": 1
-}, {
-    "username": "Koows",
-    "password": "kkkokokok",
-    "course_id": 2
-}])
+}
+    , {
+        "username": "Koows",
+        "password": "kkkokokok",
+        "course_id": 2
+    }])
 def test_post_check(mqtt_client, mqtt_message, client, new_user, message_data):
     message_payload = json.dumps(message_data)
     message = mqtt_message(message_payload.encode(), "post")
